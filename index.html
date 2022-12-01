@@ -17,7 +17,7 @@
 <body>
     <div class="body__container">
         <header class="body__header">
-            <h1>KANTOR</h1>zadanie na ukończenie modułu nr 4
+            <h1>KANTOR</h1>
         </header>
 
         <main>
@@ -27,7 +27,7 @@
                     <legend class="form__legend">Polski złoty</legend>
                     <p>
                         <label>Podaj wartość w złotówkach [PLN]:
-                            <input type="number" class="js-amount" placeholder="wpisz ilość">
+                            <input type="number" class="js-amount" placeholder="wpisz ilość" step="0.01" min="1">
                         </label>
                     </p>
                 </fieldset>
@@ -43,6 +43,7 @@
                                 <option value="USD">[USD] dolar amerykański</option>
                                 <option value="GBP">[GBP] funt szterling</option>
                                 <option value="EUR">[EUR] euro</option>
+                                <option value="JPY">[100 JPY] jen</option>
                                 <option value="BTC">[BTC] bitcoin</option>
                             </select>
                         </label>

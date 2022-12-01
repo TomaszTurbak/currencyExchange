@@ -6,6 +6,7 @@ let resultElement = document.querySelector(".js-result");
 let EUR = 4.6985;
 let GBP = 5.3404;
 let USD = 4.5143;
+let JPY = 3.2410
 let BTC = 76039.1400;
 
 formElement.addEventListener("submit", (event) => {
@@ -24,7 +25,10 @@ formElement.addEventListener("submit", (event) => {
         case "USD":
             result = value / USD;
             break;
-        case "EUR":
+        case "JPY":
+            result = (value / JPY) * 100;
+            break;
+        case "BTC":
             result = value / BTC;
             break;
     }
