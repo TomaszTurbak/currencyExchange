@@ -5,7 +5,7 @@
 ![Currency Exchange](https://github.com/TomaszTurbak/currencyExchange/blob/main/images/currency-exchange.png?raw=true)
 
 ## GitHub Pages: 
-https://github.com/TomaszTurbak/currencyExchange
+https://tomaszturbak.github.io/currencyExchange/
 
 ## Description
 
