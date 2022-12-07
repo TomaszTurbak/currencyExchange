@@ -9,7 +9,7 @@ html {
 }
 
 body {
-    background: #eee;
+    background: center / contain #eee;
     color: rgb(17, 6, 68);
     font-family: "lato", "sans-serif";
     margin-top: 10px;
