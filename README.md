@@ -18,6 +18,9 @@ This is my second project created in the process of becoming the Frontend Develo
 3. Click the *POLICZ* button.
 4. Your calculation will be shown below *POLICZ* button.
 
+
+
+
 ## Technologies used in the projekt
 
 - HTML
