@@ -12,9 +12,6 @@ body {
     background: #eee;
     color: rgb(17, 6, 68);
     font-family: "lato", "sans-serif";
-}
-
-.body__container {
     margin-top: 10px;
     margin-bottom: 10px;
     margin: auto;
@@ -24,12 +21,12 @@ body {
     border: 1px solid black;
 }
 
-.body__header {
+.header {
     padding: 10px;
 }
 
 .footer {
-    padding-top: 40px;
+    padding-top: 20px;
 }
 
 .form__button {
