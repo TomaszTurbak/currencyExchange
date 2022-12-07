@@ -9,7 +9,7 @@ https://tomaszturbak.github.io/currencyExchange/
 
 ## Description
 
-This is my second project created in the process of becoming the Frontend Developer. I have created a simple currency conventer that allows you to exchange Polish currency PLN into some other currencies.
+This is my second project created in the process of becoming the Frontend Developer. I have created a simple currency conventer that allows you to calculate exchange rates of PLN into some other currencies.
 
 ## How it works
 
