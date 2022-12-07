@@ -16,58 +16,62 @@
 </head>
 
 <body class="body">
-    <header class="header">
-        <h1>KANTOR</h1>
-    </header>
+    <div class="container">
+        <header class="header">
+            <h1>"KANTOR"</h1>
+        </header>
+        <main>
+            <form class="js-form">
 
-    <main>
-        <form class="js-form">
+                <fieldset class="form__fieldset">
+                    <legend class="form__legend">Polski złoty</legend>
+                    <p>
+                        <label>Podaj wartość w złotówkach [PLN]:
+                            <input type="number" class="js-amount" placeholder="wpisz ilość" step="0.01" min="1">
+                        </label>
+                    </p>
+                </fieldset>
 
-            <fieldset class="form__fieldset">
-                <legend class="form__legend">Polski złoty</legend>
+                <fieldset class="form__fieldset">
+                    <legend class="form__legend">Waluty</legend>
+                    <p>
+                        <label>
+                            <span class="form__labelText">
+                                Wybierz walutę:
+                            </span>
+                            <select class="form__field form__field--select js-currency">
+                                <option value="USD">[USD] dolar amerykański</option>
+                                <option value="GBP">[GBP] funt szterling</option>
+                                <option value="EUR">[EUR] euro</option>
+                                <option value="JPY">[100 JPY] jen</option>
+                                <option value="BTC">[BTC] bitcoin</option>
+                            </select>
+                        </label>
+                    </p>
+                </fieldset>
+
                 <p>
-                    <label>Podaj wartość w złotówkach [PLN]:
-                        <input type="number" class="js-amount" placeholder="wpisz ilość" step="0.01" min="1">
-                    </label>
+                    <button class="form__button">POLICZ</button>
                 </p>
-            </fieldset>
+            </form>
 
-            <fieldset class="form__fieldset">
-                <legend class="form__legend">Waluty</legend>
-                <p>
-                    <label>
-                        <span class="form__labelText">
-                            Wybierz walutę:
-                        </span>
-                        <select class="form__field form__field--select js-currency">
-                            <option value="USD">[USD] dolar amerykański</option>
-                            <option value="GBP">[GBP] funt szterling</option>
-                            <option value="EUR">[EUR] euro</option>
-                            <option value="JPY">[100 JPY] jen</option>
-                            <option value="BTC">[BTC] bitcoin</option>
-                        </select>
-                    </label>
-                </p>
-            </fieldset>
-
+            <aside>
+                <p>Twój wynik:</p>
+                <p><strong class="form__result js-result">N/A</strong></p>
+            </aside>
+        </main>
+    </div>
+    <div class="container2">
+        <footer class="footer">
             <p>
-                <button class="form__button">POLICZ</button>
-            </p>
-        </form>
-        <aside>
-            <p>Twój wynik: <strong class="form__result js-result">N/A</strong></p>
-        </aside>
-    </main>
+                Kursy walut pochodzą ze stron:</p>
+            <p>Narodowego Banku Polskiego<br>Tabela nr <a href="https://rss.nbp.pl/kursy/TabRss.aspx?n=2022/a/22a220"
+                    target="_blank">220/A/NBP/2022</a> z dnia 2022-11-15</p>
+            oraz<p>Giełdę kryptowalut <a href="https://www.binance.com/en" target="_blank">binance.com</a></p>
 
-    <footer class="footer">
-        <p>
-            Kursy walut pochodzą ze stron:</p>
-        <p>Narodowego Banku Polskiego<br>Tabela nr <a href="https://rss.nbp.pl/kursy/TabRss.aspx?n=2022/a/22a220"
-                target="_blank">220/A/NBP/2022</a> z dnia 2022-11-15</p>
-        oraz<p>Giełdę kryptowalut <a href="https://www.binance.com/en" target="_blank">binance.com</a></p>
-
-        <h4>&copy; <strong>Tomasz Turbak</strong> v.2022.1</h4>
-    </footer>
+            <h4>&copy; <strong>Tomasz Turbak</strong> v.2022.1</h4>
+        </footer>
+    </div>
 
 </body>
 

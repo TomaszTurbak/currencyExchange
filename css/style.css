@@ -19,6 +19,23 @@ body {
     max-width: 600px;
     text-align: center;
     border: 1px solid black;
+    background-image: url(../images/background.jpg);
+    background-size: 400px 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.container2 {
+    background-color: #ccc;
+    border-radius: 20px;
+    padding: 20px;
 }
 
 .header {
@@ -26,7 +43,7 @@ body {
 }
 
 .footer {
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
 .form__button {
@@ -35,7 +52,7 @@ body {
     background-color: teal;
     color: white;
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 .form__button:hover {
@@ -51,26 +68,27 @@ body {
 .form__legend {
     background-color: teal;
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 20px;
     color: white;
     padding: 5px 15px;
 }
 
 .form__fieldset {
-    border-radius: 5px;
+    border-radius: 20px;
     border: 1px solid #ccc;
     padding: 20px;
     margin: 20px 0;
+    background-color: #ccc;
 }
 
 .form__result {
     max-width: 20%;
     border-width: 2px;
     border-style: solid;
-    border-radius: 5px;
+    border-radius: 20px;
     border-color: black;
     background-color: blue;
-    font-size: 20px;
+    font-size: 14px;
     padding: 5px 20px;
     color: white;
 }
